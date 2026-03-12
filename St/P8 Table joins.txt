@@ -1,0 +1,17 @@
+Practical 8
+Table joins:
+
+Layer > Add Layer > Add Vector Layer >
+Add “tl_2013_06_tract.zip” file >
+Select Default Transoformation > Click Ok >
+Output After Adding vector Layer >
+Layer > Add Layer > Add Delimited Layer >
+Add “ca_tracts_pop.csv” file > Select CSV file format and no geometry > Click Add >
+Right Click to the tl_2013_06_tract Layer > Open Attribute Table > 
+Right Click to the ca_tracts_pop Layer > Open Attribute Table >
+Go to properties of tl_2013_06_tract Layer >
+Select Mange joins to other layer Option At Properties > Select Join Layer As “ca_tracts_pop” > Join Field as “GEO.id2” > Target Field As GEOID > Click Ok >
+Now At tl_2013_06_tract layer > Go to Joins > Add The Join layer that Created >
+Open Attribute Table of “tl_2013_06_tract” layer >
+Open Properties of Vector Layer > Select Graduated At Symbology And Select Mode:Equal Interval > Clcik Ok >
+Output After Setting Properties >

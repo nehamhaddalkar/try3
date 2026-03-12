@@ -1,0 +1,16 @@
+practical No:04
+1.Making a Map, Working with Attributes
+
+Step 1:Layer->Add Layer->Add Vector Layer
+Step 2:Data Source Manager->select dataset(IND_adm1.shp)->Add
+Step 3:Result
+Step 4:Layer Properties->single white
+
+Step 5:Result
+Step 6:Repeat same steps to add more layers (Maharashtra_administrative,maharashtra_highway,maharashtra_coastline,IND_adm1)
+Step 7:Project->New Print Layout
+Step 8:Create Print Layout->Add a unique title name
+Step 9:Add item->Add Map
+Step 10:Result
+Step 11:Add Item->Add Dynamic Text->Current date->Day/Month/Year
+Step 12:Repeat the same steps and add more items. These is the result of all added items.

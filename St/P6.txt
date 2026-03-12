@@ -1,0 +1,20 @@
+PRACTICAL NO:06
+Working with Projections and WMS Data
+
+
+Step 1: Open qgis->select project->new project
+Step 2: layer->Add layer->Add Vector Layer
+Step 3: select vector dataset->ne_10m_admin0_countries.zip->add
+Output
+Step 4: right click on layer->layer CRS->set layer CRS
+Step 5: select North_America_Albers_Equal_Area_conic(ESRI:102008)->ok
+Output:
+Step 6: Layer->save as
+Step 7: Format (ESRI Shapefile)->file name->ok
+Output:
+Step 8: Layer->Add  layer->Add Raster Layer
+Step 9: Raster Dataset->minisc_gb.zip->add
+Output:
+Step 10: Right click on layer->Layer CRS->Set Layer CRS
+Step 11: select British National Grid(ESRI:27700)->ok
+Output:

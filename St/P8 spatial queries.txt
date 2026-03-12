@@ -1,0 +1,16 @@
+Practical 8
+Performing spatial queries:
+
+Layer > Add Layer > Add Vector Layer >
+Select “ne_10m_populated_places_simple.zip” file > Add >
+Output After Adding “ne_10m_populated_places_simple” vector layer >
+Layer > Add Layer > Add Vector Layer >
+Select “ne_10m_rivers_lake_centerlines.zip” file > Add >
+Output After Adding “ne_10m_rivers_lake_centerlines” vector layer >
+Vector > Geoprocessing Tools > Buffer >
+At Buffer Set Input Layer :ne_10m_rivers_lake_centerlines > Distanace : 0.5000 > Save > Run >
+Output of Buffered Layer >
+Vector > Research Tools > Select by Location.. > 
+Select Features From : Buffered Layer That recently Created > Check the Intersect Option > By comparing to the features from : ne_10m_populated_places_simple layer > Run >
+Output After Using Research Tools To Layer >
+Final Output After Adding Labels to the Layer >

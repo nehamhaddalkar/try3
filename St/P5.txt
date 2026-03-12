@@ -1,0 +1,21 @@
+Practical No.05 
+Working with attributes, terrain Data
+
+Step 1: Open qgis->select project->new project
+Step 2: Add layer->Add Raster Layer
+Step 3: Raster Dataset-> 10n060e_20101117_gmted_dsc300.tif
+Step 4: Raster->Extraction->Clip raster by extent
+Step 5: select clipping extent file->draw on map canvas
+Step 6: drag the area->click on run
+Result: 
+Step 7: raster->extraction->contour
+Step 8: input layer(clipped file)->Interval between contour lines(100.00)->attribute name(ELEV)->run
+Output:
+Step 9: right click on layer-> properties->label->single labels->value(ElEV)->apply->ok
+Output: 
+Step 10: right click on contours->open attribute table
+Step 11: Attribute Table->click on highest value->zoom map to the selected rows
+Output:
+Step 12: Raster->Analysis->Hillshade…
+Step 13: input layer(clipped file)->run
+Output: 

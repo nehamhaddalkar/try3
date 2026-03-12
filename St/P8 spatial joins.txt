@@ -1,0 +1,20 @@
+Practical
+Spatial joins:
+
+Layer > Add Layer > Add Vector Layer >
+Select nybb_12c(1).zip > Click Add >
+Select Default Transformation > Click Ok >
+Output After Adding vector Layer >
+Layer > Add Layer > Add Vector Layer > Select “OEM_NursingHomes_001 (1).zip” > Add >
+Output After Adding OEM_NursingHomes_001 (1) Layer >
+Open Attribute Table Of “nybb_12c(1)” layer >
+Output of Attribute Table >
+Open Attribute Table Of “OEM_NursingHomes_001 (1)” layer >
+Output of Attribute Table >
+Vector > Data Management Tools > Join Attributes by Location.. >
+Select nybb_12c(1) as Base Layer > OEM_NursingHomes_001 (1) as Join Layer > Run >
+Output Of Join Layer >
+Open Attribute Table of Join Layer >(pract8b)
+Output of Attribute Table >
+Select Identify Features >
+Click Any Subject at Layer And see Output at Identify Features tab >

@@ -1,0 +1,18 @@
+p4
+Importing Spreadsheets 
+
+Step 1:Layer->Add Layer->Add Delimited Text Layer
+Step 2:Data Source Manager->Delimited Text->Select file(earthquake)->Regular expression delimeter(comma)->file format(custom delimeters)->Geometry CRS(EPSG:4326=WGS 84)
+Step 3:Result
+
+CSV files Using Plugins, Searching and Downloading OpenStreetMap Data
+
+Step 1:Plugins->Manage and Install Plugins
+Step 2:Plugins->OSM place Search
+Step 3:Plugins->QuickMapServices
+Step 5:Web->QuickMapServices->OSM->OSM standard
+Step 6:OSM Place search->enter area name(Sindhudurg)->create mask from selected object
+Step 7:Result
+Step 8:Layer->save 
+Step 9:Save Vector Layer ->choose file name and format
+Step 10:Result

@@ -1,0 +1,28 @@
+practical No:03
+
+Step 2: Source type->Raster Dataset(s)->glds90ag60.asc
+Step 3: Source type->Raster Dataset(s)->glds00ag60.asc
+Step 3: Result
+Step 4: To Set Style property For First Layer -> Right click on layer -> click on control feature Symbology -> Set render type > set Min and Max value > Apply > Ok
+Step 5: Result
+Step 6: To Set Style property For Second Layer -> Right click on layer -> click on control feature Symbology -> Set render type > set Min and Max value > Apply > Ok
+Step 7: Result
+Step 8: Select Raster >Select raster calculator
+Step 9: Raster Calculator > Set output layer >Set output format to GeoTIFF >Set output CRS to Project CRS:EPSG:4326-WGS84 >Prepare raster expression using raster bands and operator  
+Step 10: Result
+Step 11: To Set Style property Layer -> Right click on layer -> click on control feature Symbology -> Set render type > Set Interpolation > Change values> Apply > Ok
+Step 12: Result
+
+
+B.  Raster mosaicking and clipping
+
+Step 1:  Select Raster > Miscellaneous > merge
+Step 2: Select all .2km files > Open > Add the Selected layers  
+Step 3: Add selected layer
+Step 4: Add input layers >set all attributes >Run
+Step 5: Result 
+Step 6: Source type->Vector Dataset(s)->IND_adm.shp > add layer >add
+Step 7: Result
+Step 8: Select raster > Raster Extraction > Clip raster by mask layer>Add input layer > Set all attributes > Run
+Step 9: Output
+Step 10: Result After Clipping and Merging
